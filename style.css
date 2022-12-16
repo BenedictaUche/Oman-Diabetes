@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .section{
+    background: url("./images/oman_boy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  button {
+    border: none;
+    padding: 15px 32px;
+    font-weight: bold;
+    font-size: 80%;
+    margin-top: 25%;
+    margin-left: 3%;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+  .btn1 {
+    background-color: #01AEFD;
+    color: white
+  }
+  .btn1:hover {
+    background-color: #ffffff;
+    color: #01AEFD;
+  }
+  .btn2 {
+    background-color: #ffffff;
+    color: #01AEFD;
+    border: 2px solid #01AEFD;
+  }
+  .btn2:hover {
+    background-color: #01AEFD;
+    color: #ffffff;
+  }
+  /*button:hover {
+    background-color: #528AAE;
+  }*/
+
+  /* Styling for the How_TO page */
+  .how_section{
+    background: url("./images/oman_boy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    opacity: 0.5;
+  }
