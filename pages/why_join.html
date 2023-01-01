@@ -5,35 +5,127 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link rel="stylesheet" href="webpage_styles.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="../nav.css" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css2family=Inter:wght@600&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 </head>
 
 
 <body>
 
-<!--All of these links, but none of them have content so they are for testing only-->
-<ul class = "navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="register.html">Register</a></li> 
-    <li><a href="about_oda.html">About ODA</a></li>
-    <li><a href="diabetes_facts.html">Diabetes Facts</a></li>
-    <li><a href="news.html">News</a></li>
-    <li><a href="patient_edu.html">Patient Education</a></li>
-    <li><a href="why_join.html">Why join the ODA?</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
+  <!--All of these links, but none of them have content so they are for testing only-->
+  <!----Navbar-->
+    <div class="logo-img" style="background: #fff;">
+      <span class="logo">
+        <a href="#"><img src="/images/oman_logo.png" alt="Oman Diabetes Logo" class="img"/></a>
+      </span>
+    </div>
+
+    <header class="header">
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+
+    <nav class="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/register.html">Register</a></li>
+          <li><a href="#">About ODA +</a>
+            <ul>
+              <li><a href="/pages/about_oda.html#chairperson-word">Association Chairperson Word</a></li>
+              <li><a href="/pages/about_oda.html#about-mission">Vision & Mission</a></li>
+              <li><a href="/pages/about_oda.html#members-oda">Members</a></li>
+              <li><a href="/pages/about_oda.html#chairperson-word">Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Diabetes Facts +</a>
+            <ul>
+              <li><a href="#">Patients +</a>
+                <ul>
+                  <li><a href="/pages/patients/how_to.html">What is Diabetes?</a></li>
+                  <li><a href="/pages/patients/diabetes_types.html">Types of Diabetes</a></li>
+                  <li><a href="/pages/patients/signs_and_symptoms.html">Signs & Symptoms of Diabetes</a></li>
+                  <li><a href="/pages/patients/why_it_matters.html">Why Diabetes Matter</a></li>
+                  <li><a href="/pages/patients/prediabetes.html">Prediabetes</a></li>
+                  <li><a href="/pages/patients/differences.html">Differentiating between Normal, Prediabetes & Diabetes</a></li>
+                  <li><a href="/pages/patients/who_test.html">Who should be tested for Diabetes & Prediabetes</a></li>
+                  <li><a href="/pages/patients/monitoring.html">Home Monitoring</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Professionals +</a>
+                <ul>
+                  <li><a href="/pages/professionals/guidelines.html">Diabetes Guidelines</a></li>
+                  <li><a href="/pages/professionals/studies.html">National Studies</a></li>
+                  <li><a href="/pages/professionals/useful.html">Useful Links</a></li>
+                  <li><a href="/pages/professionals/conferences.html">Conferences</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">News +</a>
+            <ul>
+              <li><a href="#">Upcoming Events</a></li>
+              <li><a href="#">Events Archive</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Patient Education +</a>
+            <ul>
+              <li><a href="#">Exercises</a></li>
+              <li><a href="#">Nutrition</a></li>
+              <li><a href="#">Low Blood Sugar</a></li>
+              <li><a href="#">Fasting</a></li>
+              <li><a href="#">Hajj</a></li>
+              <li><a href="#">Get Sick</a></li>
+            </ul>
+          </li>
+          <li><a href="pages/why_join.html">Why Join The ODA</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!---End of navbar-->
+
+
+
+
+  
+
+  <p>Oman Diabetes Association (ODA) aims to improve community awareness of healthy lifestyles, patient education and
+    management of diabetes, and has the mission to pursue to prevent diabetes, endeavor to treat people with diabetes,
+    improve their overall quality of life and ban complications of diabetes.</p>
+
+  <p>General membership to the ODA is designed for people with diabetes, their families, friends and caregivers.</p>
+
+  <p> Regular membership benefits include:</p>
+
+  <ul>
+    <li>Participating in the events and camps conducted by ODA.</li>
+    <li>The opportunity to meet a broader network of health care professionals who are dedicated to support people with
+      diabetes.</li>
+    <li>Inspiring stories about people who thrive with diabetes </li>
+    <li>Tips for living well with diabetes </li>
+    <li>Get the most up-to-date information about diabetes research, breakthroughs, and treatment advances </li>
+    <li>Discounted rates on the devices for self-monitoring of blood glucose. </li>
+    <li>Donate to support and to transform the lives of people with diabetes. </li>
+    <li>As an employee or employer, you can help lead the fight against the deadly consequences of diabetes and get
+      update about upcoming events, conferences and guidelines related to diabetes. </li>
+
   </ul>
 
-Why join the ODA page.
-  
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
- <!--
+  <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+  <script src="../nav.js"></script>
 </body>
 
 </html>
